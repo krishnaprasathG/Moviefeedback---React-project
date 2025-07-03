@@ -1,0 +1,114 @@
+.App {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 40px 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.form {
+  width: 100%;
+  max-width: 500px;
+  padding: 25px;
+  margin: 30px auto;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form div {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+input,
+select,
+textarea {
+  margin-top: 5px;
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+textarea {
+  min-height: 80px;
+}
+
+button {
+  cursor: pointer;
+  height: 45px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: green;
+}
+
+.tab {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.tab-link {
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 10px;
+  border: 2px solid blue;
+  border-radius: 5px;
+  color: blue;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.tab-link:hover {
+  background-color: blue;
+  color: white;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #222;
+}
+
+.review-list {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.review-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.error {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 4px;
+}
